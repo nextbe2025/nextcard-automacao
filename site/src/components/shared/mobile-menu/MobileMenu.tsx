@@ -35,7 +35,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
   return (
     <aside
       className={cn(
-        'dark:bg-background-8 scroll-bar isolate fixed top-0 right-0 z-[9999] h-screen w-full translate-x-full overflow-y-auto overflow-x-hidden bg-white shadow-[-24px_0_60px_-15px_rgba(0,0,0,0.3)] transition-all duration-300 sm:w-1/2 sm:rounded-l-3xl xl:hidden',
+        'dark:bg-background-8 scroll-bar isolate fixed top-0 right-0 z-[9999] h-dvh w-full translate-x-full overflow-y-auto overflow-x-hidden overscroll-contain bg-white shadow-[-24px_0_60px_-15px_rgba(0,0,0,0.3)] transition-all duration-300 sm:w-1/2 sm:rounded-l-3xl xl:hidden',
         isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0',
       )}>
       <BackgroundLines variant="grid" />
@@ -54,7 +54,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
         </div>
 
         {/* menu items list  */}
-        <div className="scroll-bar mt-6 h-[85vh] w-full overflow-x-hidden pb-10">
+        <div className="mt-6 w-full pb-[max(2.5rem,env(safe-area-inset-bottom))]">
           <p className="text-secondary dark:text-accent text-tagline-1 before:bg-stroke-4 dark:before:bg-stroke-6 relative mb-2 block font-normal before:absolute before:top-1/2 before:-right-16 before:h-px before:w-full before:-translate-y-1/2 before:content-['']">
             Menu
           </p>
