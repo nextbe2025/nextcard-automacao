@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env
+.env.local
+*.log
+
+# Template source archive / extraction — reference material, not part of the site
+_template_extract/
+*.zip
+
+# Client-provided raw photos staging folder (root-level, not the site's public/images)
+/images/
