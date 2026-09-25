@@ -1,5 +1,5 @@
 import CaseStudyDetails from '@/components/case-study/CaseStudyDetails';
-import CTA from '@/components/shared/cta/CTA';
+import CTA from '@/components/about/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import getMarkDownData from '@/utils/getMarkDownData';
 import { Metadata } from 'next';
@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Case Study Details - Pos System || NextSaaS',
+  title: 'Projeto | NEXTCARD Automação Comercial',
 };
 
 interface CaseStudyDetailsPageProps {
@@ -26,15 +26,7 @@ const CaseStudyDetailsPage = async ({ params }: CaseStudyDetailsPageProps) => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
       <CaseStudyDetails slug={slug} />
-      <CTA
-        className="dark:bg-background-5 bg-white"
-        badgeClass="badge-yellow-v2"
-        badgeText="Get started"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
-        btnClass="hover:btn-secondary dark:hover:btn-accent"
-      />
+      <CTA />
     </main>
   );
 };

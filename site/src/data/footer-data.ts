@@ -16,6 +16,8 @@ export const footerLinks: FooterData[] = [
       { label: 'A NEXTCARD', href: '/quem-somos' },
       { label: 'Projetos', href: '/projetos' },
       { label: 'Seja um Parceiro', href: '/parceiros-revenda' },
+      { label: 'Política de Privacidade', href: '/politica-de-privacidade' },
+      { label: 'Termos de Uso', href: '/termos-de-uso' },
     ],
   },
   {
