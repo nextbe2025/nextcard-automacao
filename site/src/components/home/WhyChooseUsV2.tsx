@@ -98,7 +98,7 @@ const WhyChooseUsV2 = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.5}>
                 <Cta
-                  href="/cotacao"
+                  href="/contato"
                   id="home_custom_project_cta"
                   location="home_custom_project"
                   className="btn btn-primary hover:btn-secondary btn-lg mt-4 inline-block">

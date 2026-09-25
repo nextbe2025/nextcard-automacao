@@ -120,7 +120,7 @@ const Footer = ({ className }: { className?: string }) => {
             </RevealAnimation>
             <RevealAnimation delay={0.8} offset={10} start="top 105%">
               <Cta
-                href="/cotacao"
+                href="/contato"
                 id="footer_solicitar_cotacao"
                 location="footer"
                 className="btn btn-primary hover:btn-white btn-sm">

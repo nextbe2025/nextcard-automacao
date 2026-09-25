@@ -102,7 +102,7 @@ const Navbar = () => {
               </ul>
             </nav>
             <div className="hidden items-center justify-center xl:flex">
-              <Cta href="/cotacao" id="nav_solicitar_cotacao" location="navbar" className="btn btn-md btn-primary hover:btn-secondary">
+              <Cta href="/contato" id="nav_solicitar_cotacao" location="navbar" className="btn btn-md btn-primary hover:btn-secondary">
                 <span>Solicitar Cotação</span>
               </Cta>
             </div>

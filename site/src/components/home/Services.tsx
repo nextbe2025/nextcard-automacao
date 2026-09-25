@@ -93,7 +93,7 @@ const Services = () => {
         <div className="text-center">
           <RevealAnimation delay={0.9}>
             <Cta
-              href="/cotacao"
+              href="/contato"
               id="home_benefits_cta"
               location="home_benefits"
               className="btn md:btn-xl btn-lg btn-primary hover:btn-secondary mx-auto w-[90%] md:mx-0 md:w-auto">

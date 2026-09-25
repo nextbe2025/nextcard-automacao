@@ -80,7 +80,7 @@ const FinanceIntro = () => {
           <RevealAnimation delay={0.7}>
             <div>
               <LinkButton
-                href="/cotacao"
+                href="/contato"
                 className="btn btn-secondary hover:btn-white dark:btn-white-dark btn-xl mx-auto block w-full md:inline-block md:w-auto">
                 Fale com um especialista
               </LinkButton>

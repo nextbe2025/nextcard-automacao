@@ -74,7 +74,7 @@ interface PaperNotesProps {
 }
 
 const PaperNotes = ({
-  ctaHref = '/cotacao',
+  ctaHref = '/contato',
   ctaId = 'paper_notes_cta',
   location = 'paper_notes',
 }: PaperNotesProps) => {

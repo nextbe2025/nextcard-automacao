@@ -21,7 +21,7 @@ const CTA = () => {
             <div className="text-center md:inline-block">
               <div>
                 <LinkButton
-                  href="/cotacao"
+                  href="/contato"
                   className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md text-tagline-2 mx-auto block w-full text-center md:mx-0 md:inline-block md:w-auto">
                   Solicitar cotação
                 </LinkButton>

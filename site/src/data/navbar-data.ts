@@ -16,5 +16,5 @@ export const mobileMenuData: MobileMenuGroup[] = [
   { id: 'parceiros', title: 'Parceiros', href: '/parceiros-revenda', submenu: [] },
   { id: 'sobre', title: 'A NEXTCARD', href: '/quem-somos', submenu: [] },
   { id: 'contato', title: 'Contato', href: '/contato', submenu: [] },
-  { id: 'cotacao', title: 'Solicitar Cotação', href: '/cotacao', submenu: [] },
+  { id: 'cotacao', title: 'Solicitar Cotação', href: '/contato', submenu: [] },
 ];

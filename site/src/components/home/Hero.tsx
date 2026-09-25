@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="flex w-full max-w-[320px] items-center justify-center gap-3 max-sm:flex-col sm:max-w-none">
               <RevealAnimation delay={0.8}>
                 <Cta
-                  href="/cotacao"
+                  href="/contato"
                   id="hero_solicitar_cotacao"
                   location="hero"
                   className="btn btn-primary hover:btn-white btn-lg w-full sm:w-auto">

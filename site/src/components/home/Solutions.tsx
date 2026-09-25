@@ -110,7 +110,7 @@ const Solutions = () => {
         <RevealAnimation delay={0.7}>
           <div className="mt-10 text-center">
             <Cta
-              href="/cotacao"
+              href="/contato"
               id="home_solutions_cta"
               location="home_solutions"
               className="btn btn-primary hover:btn-secondary btn-lg">
