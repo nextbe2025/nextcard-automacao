@@ -1,6 +1,6 @@
 import RevealAnimation from '../animation/RevealAnimation';
 import SplitHeading from '../animation/SplitHeading';
-import { KioskIcon, TurnstileIcon } from '../shared/BrandIcons';
+import { KioskIcon, TicketIcon, TurnstileIcon } from '../shared/BrandIcons';
 import FloatingCard from '../shared/FloatingCard';
 import Cta from '../shared/tracking/Cta';
 
@@ -31,9 +31,21 @@ const Hero = () => {
           <div className="relative z-20 flex min-h-[620px] flex-col items-center justify-center px-6 py-[100px] text-center md:min-h-[700px] md:py-[150px]">
             <div className="mb-8 space-y-5 sm:mb-10 md:mb-14">
               <RevealAnimation delay={0.1}>
-                <span className="badge text-secondary bg-white">
-                  <KioskIcon className="-mt-0.5 mr-2 inline-block size-4 align-middle" />
-                  Totens · Catracas · Comandas
+                <span className="badge text-secondary bg-white inline-flex items-center gap-1.5">
+                  <span className="inline-flex items-center gap-1">
+                    <KioskIcon className="size-4" />
+                    Totens
+                  </span>
+                  <span className="opacity-40">·</span>
+                  <span className="inline-flex items-center gap-1">
+                    <TurnstileIcon className="size-4" />
+                    Catracas
+                  </span>
+                  <span className="opacity-40">·</span>
+                  <span className="inline-flex items-center gap-1">
+                    <TicketIcon className="size-4" />
+                    Comandas
+                  </span>
                 </span>
               </RevealAnimation>
               <div className="space-y-3">
