@@ -1,4 +1,5 @@
 import { totemFormFields } from '@/data/lead-forms';
+import FaqSection from '@/components/shared/FaqSection';
 import LeadSection from '@/components/shared/LeadSection';
 import PageBanner from '@/components/shared/PageBanner';
 import { CreditCardIcon, KioskIcon, TicketIcon, TurnstileIcon } from '@/components/shared/BrandIcons';
@@ -12,6 +13,46 @@ import bannerImg from '@public/images/ambientes/totem-autoatendimento-pedestal-r
 import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
 import comandasImg from '@public/images/ambientes/comandas-eletronicas-nextcard-sobre-a-mesa.webp';
 import { Metadata } from 'next';
+
+const totemFaqItems = [
+  {
+    id: '1',
+    question: 'O totem faz o pagamento sozinho, sem precisar de caixa?',
+    answer:
+      'Sim. O cliente monta o pedido e paga direto no totem, por Pix, cartão de débito ou crédito, sem depender de um operador de caixa para finalizar a venda.',
+  },
+  {
+    id: '2',
+    question: 'Preciso de internet o tempo todo para o totem funcionar?',
+    answer:
+      'O totem depende de conexão para processar pagamentos e sincronizar com o PDV. Para operações com internet instável, a equipe da NEXTCARD orienta a melhor estrutura de rede durante o projeto.',
+  },
+  {
+    id: '3',
+    question: (
+      <>
+        A <strong>NEXTCARD</strong> faz locação de totens?
+      </>
+    ),
+    answer: (
+      <>
+        Não. A <strong>NEXTCARD</strong> trabalha só com venda direta dos equipamentos, sem contrato de locação.
+      </>
+    ),
+  },
+  {
+    id: '4',
+    question: 'Quanto tempo leva para instalar um totem?',
+    answer:
+      'Varia conforme o número de unidades e a integração necessária com o sistema do cliente. O prazo é definido já na fase de diagnóstico do projeto.',
+  },
+  {
+    id: '5',
+    question: 'O totem serve só para restaurante ou também para loja de conveniência?',
+    answer:
+      'Serve para os dois formatos. O totem se adapta ao cardápio ou ao mix de produtos de cada operação, do food service às lojas de conveniência.',
+  },
+];
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -52,6 +93,7 @@ const page = () => {
       <TotemBenefits />
       <TotemModels />
       <SegmentsSection subtitle="Do food service às lojas de conveniência, o totem se adapta ao formato de cada operação." />
+      <FaqSection items={totemFaqItems} />
       <LeadSection
         product="totem"
         productLabel="Totens de autoatendimento e autopagamento"

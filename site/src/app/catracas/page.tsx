@@ -2,6 +2,7 @@ import CatracaBenefits from '@/components/catraca/CatracaBenefits';
 import CatracaFlow from '@/components/catraca/CatracaFlow';
 import CatracaModels from '@/components/catraca/CatracaModels';
 import { KioskIcon, ShieldCheckIcon, TicketIcon, TrendingUpIcon, TurnstileIcon } from '@/components/shared/BrandIcons';
+import FaqSection from '@/components/shared/FaqSection';
 import FloatingCard from '@/components/shared/FloatingCard';
 import LeadSection from '@/components/shared/LeadSection';
 import PageBanner from '@/components/shared/PageBanner';
@@ -13,6 +14,39 @@ import bannerImg from '@public/images/ambientes/catracas-expedidora-e-receptora-
 import comandasImg from '@public/images/ambientes/comandas-eletronicas-nextcard-sobre-a-mesa.webp';
 import totemImg from '@public/images/ambientes/totem-autoatendimento-pedestal-restaurante.webp';
 import { Metadata } from 'next';
+
+const catracaFaqItems = [
+  {
+    id: '1',
+    question: 'Qual a diferença entre catraca expedidora e receptora?',
+    answer:
+      'A expedidora libera a entrada e entrega a comanda eletrônica ao cliente. A receptora confirma o pagamento na saída e libera a passagem, fechando o ciclo de consumo.',
+  },
+  {
+    id: '2',
+    question: 'A catraca ajuda a reduzir a evasão de receita?',
+    answer:
+      'Sim. Como a saída só é liberada depois da confirmação do pagamento, a catraca reduz os casos de consumo sem pagamento na saída.',
+  },
+  {
+    id: '3',
+    question: 'Dá para usar a catraca só como controle de acesso, sem comanda?',
+    answer:
+      'Sim. A catraca também funciona como controle de acesso isolado, sem estar necessariamente integrada ao fluxo de comandas.',
+  },
+  {
+    id: '4',
+    question: 'A catraca funciona em posto de combustível ou loja de conveniência?',
+    answer:
+      'Sim. Além de restaurantes e casas noturnas, a catraca é usada em postos de combustível e lojas de conveniência para controlar entrada e consumo.',
+  },
+  {
+    id: '5',
+    question: 'Quanto tempo leva para instalar uma catraca?',
+    answer:
+      'Depende do número de unidades e da estrutura do local. Esse prazo é definido junto com o cliente na etapa de diagnóstico do projeto.',
+  },
+];
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -54,6 +88,7 @@ const page = () => {
       <CatracaFlow />
       <CatracaModels />
       <SegmentsSection subtitle="Do food service às lojas de conveniência, as catracas se adaptam ao formato de cada operação." />
+      <FaqSection items={catracaFaqItems} />
       <LeadSection
         product="catraca"
         productLabel="Catracas expedidora e receptora"

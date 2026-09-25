@@ -2,6 +2,7 @@ import { comandaFormFields } from '@/data/lead-forms';
 import ComandaBenefits from '@/components/comanda/ComandaBenefits';
 import ComandaModels from '@/components/comanda/ComandaModels';
 import { KioskIcon, LayersIcon, TicketIcon, TrendingUpIcon, TurnstileIcon } from '@/components/shared/BrandIcons';
+import FaqSection from '@/components/shared/FaqSection';
 import FloatingCard from '@/components/shared/FloatingCard';
 import LeadSection from '@/components/shared/LeadSection';
 import PageBanner from '@/components/shared/PageBanner';
@@ -13,6 +14,38 @@ import bannerImg from '@public/images/ambientes/comandas-eletronicas-nextcard-so
 import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
 import totemImg from '@public/images/ambientes/totem-autoatendimento-pedestal-restaurante.webp';
 import { Metadata } from 'next';
+
+const comandaFaqItems = [
+  {
+    id: '1',
+    question: 'Como funciona a comanda eletrônica na prática?',
+    answer:
+      'O cliente recebe a comanda na entrada, ela registra o consumo ao longo do atendimento e o fechamento é feito de forma automática, sem cálculo manual.',
+  },
+  {
+    id: '2',
+    question: 'O que acontece se o cliente perder a comanda?',
+    answer:
+      'A equipe consegue localizar o consumo vinculado à comanda pelo sistema, sem depender de anotação em papel para recuperar o valor.',
+  },
+  {
+    id: '3',
+    question: 'A comanda eletrônica substitui de vez o papel e a calculadora?',
+    answer:
+      'Sim, esse é justamente o objetivo da comanda: eliminar a anotação manual e o fechamento de caixa feito na calculadora.',
+  },
+  {
+    id: '4',
+    question: 'A comanda eletrônica integra com o meu PDV?',
+    answer: 'Sim. O consumo registrado na comanda entra direto no PDV, sem lançamento manual no fechamento.',
+  },
+  {
+    id: '5',
+    question: 'A comanda funciona em eventos ou só em operação fixa?',
+    answer:
+      'Funciona nos dois casos. A comanda se adapta tanto a uma operação fixa, como um restaurante, quanto a eventos com fluxo variável de clientes.',
+  },
+];
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -54,6 +87,7 @@ const page = () => {
       <PaperNotes ctaHref="#cotacao" ctaId="comanda_paper_notes_cta" location="comanda_paper_notes" />
       <ComandaModels />
       <SegmentsSection subtitle="Do food service às lojas de conveniência, a comanda eletrônica se adapta ao formato de cada operação." />
+      <FaqSection items={comandaFaqItems} />
       <LeadSection
         product="comanda"
         productLabel="Comandas eletrônicas"
