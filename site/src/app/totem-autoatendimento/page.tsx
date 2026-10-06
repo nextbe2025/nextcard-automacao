@@ -9,8 +9,8 @@ import TotemBenefits from '@/components/totem/TotemBenefits';
 import TotemModels from '@/components/totem/TotemModels';
 import SegmentsSection from '@/components/shared/SegmentsSection';
 import { defaultMetadata } from '@/utils/generateMetaData';
-import bannerImg from '@public/images/ambientes/totem-autoatendimento-pedestal-restaurante.webp';
-import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
+import bannerImg from '@public/images/ambientes/totens-autoatendimento-no-estabelecimento-nextcard.webp';
+import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-posto-tulio.webp';
 import comandasImg from '@public/images/ambientes/comandas-eletronicas-nextcard-sobre-a-mesa.webp';
 import { Metadata } from 'next';
 

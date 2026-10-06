@@ -56,7 +56,7 @@ const SegmentsSection = ({ subtitle }: { subtitle: string }) => {
     <section className="relative isolate py-14 md:py-16 lg:py-[88px] xl:py-[100px]">
       <BackgroundLines variant="grid" />
       <div className="main-container space-y-10 md:space-y-12">
-        <div className="mx-auto max-w-[680px] space-y-4 text-center">
+        <div className="mx-auto max-w-[800px] space-y-4 text-center">
           <RevealAnimation delay={0.1}>
             <span className="badge badge-primary">
               <StoreIcon className="-mt-0.5 mr-2 inline-block size-4 align-middle" />
@@ -64,7 +64,7 @@ const SegmentsSection = ({ subtitle }: { subtitle: string }) => {
             </span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2>Feito para o seu tipo de negócio</h2>
+            <h2 className="md:whitespace-nowrap">Feito para o seu tipo de negócio</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p>{subtitle}</p>

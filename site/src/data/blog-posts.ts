@@ -1,4 +1,4 @@
-import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
+import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-posto-tulio.webp';
 import comandasImg from '@public/images/ambientes/comandas-eletronicas-nextcard-sobre-a-mesa.webp';
 import restauranteImg from '@public/images/ambientes/ambiente-restaurante-moderno-iluminacao-vermelha.webp';
 import totemBancadaImg from '@public/images/ambientes/totens-autoatendimento-de-bancada-restaurante.webp';

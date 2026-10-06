@@ -68,7 +68,7 @@ const Ecosystem = () => {
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
-              <h2 className="mx-auto max-w-[620px]">Uma infraestrutura completa</h2>
+              <h2 className="mx-auto md:whitespace-nowrap">Uma infraestrutura completa</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[680px]">

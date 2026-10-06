@@ -11,7 +11,7 @@ import RelatedSolutions from '@/components/shared/RelatedSolutions';
 import SegmentsSection from '@/components/shared/SegmentsSection';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import bannerImg from '@public/images/ambientes/comandas-eletronicas-nextcard-sobre-a-mesa.webp';
-import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
+import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-posto-tulio.webp';
 import totemImg from '@public/images/ambientes/totem-autoatendimento-pedestal-restaurante.webp';
 import { Metadata } from 'next';
 

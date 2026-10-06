@@ -10,7 +10,7 @@ import RelatedSolutions from '@/components/shared/RelatedSolutions';
 import SegmentsSection from '@/components/shared/SegmentsSection';
 import { catracaFormFields } from '@/data/lead-forms';
 import { defaultMetadata } from '@/utils/generateMetaData';
-import bannerImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
+import bannerImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-posto-tulio.webp';
 import comandasImg from '@public/images/ambientes/comandas-eletronicas-nextcard-sobre-a-mesa.webp';
 import totemImg from '@public/images/ambientes/totem-autoatendimento-pedestal-restaurante.webp';
 import { Metadata } from 'next';

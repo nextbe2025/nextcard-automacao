@@ -58,10 +58,10 @@ const Solutions = () => {
             </span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto max-w-[600px]">Três linhas, um ecossistema</h2>
+            <h2 className="mx-auto md:whitespace-nowrap">Três linhas, um ecossistema</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <p className="mx-auto max-w-[560px]">
+            <p className="mx-auto lg:whitespace-nowrap">
               Totem, catracas e comandas trabalham juntos: um único ecossistema para a jornada completa do cliente.
             </p>
           </RevealAnimation>

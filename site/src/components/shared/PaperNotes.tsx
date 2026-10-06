@@ -1,7 +1,7 @@
 import bgImg from '@public/images/backgrounds/fundo-preto-vermelho-luzes-diagonais.webp';
 import catracasImg from '@public/images/ambientes/catracas-expedidora-e-receptora-de-comandas-nextcard.webp';
 import ambienteImg from '@public/images/ambientes/ambiente-restaurante-moderno-iluminacao-vermelha.webp';
-import totemImg from '@public/images/ambientes/totem-autoatendimento-pedestal-restaurante.webp';
+import totemImg from '@public/images/ambientes/totens-autoatendimento-no-estabelecimento-nextcard.webp';
 import totensImg from '@public/images/ambientes/totens-autoatendimento-de-bancada-restaurante.webp';
 import Image, { StaticImageData } from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
