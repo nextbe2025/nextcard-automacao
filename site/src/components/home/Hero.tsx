@@ -9,11 +9,10 @@ const Hero = () => {
     <section className="overflow-x-clip pt-[90px] pb-12 xl:pb-[100px]">
       <div className="relative mx-auto max-w-[600px] md:max-w-[700px] lg:max-w-[980px] xl:max-w-[1240px] 2xl:max-w-[1440px]">
         <div className="relative z-10 mt-4 min-h-[620px] overflow-hidden rounded-4xl border-white sm:border-[10px] md:min-h-[700px]">
-          {/* TODO(nextcard): trocar pelo vídeo oficial quando estiver pronto — placeholder de simulação */}
           <div aria-hidden className="bg-secondary absolute inset-0 z-0 overflow-hidden">
             <iframe
               className="pointer-events-none absolute top-1/2 left-1/2 h-[300%] w-[300%] -translate-x-1/2 -translate-y-1/2 sm:h-[200%] sm:w-[200%] lg:h-[180%] lg:w-[180%]"
-              src="https://www.youtube.com/embed/yW8F_l6NAEI?autoplay=1&mute=1&loop=1&playlist=yW8F_l6NAEI&controls=0&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1"
+              src="https://www.youtube.com/embed/CoUZjmlMkA0?autoplay=1&mute=1&loop=1&playlist=CoUZjmlMkA0&controls=0&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1"
               title="Vídeo NEXTCARD"
               allow="autoplay; encrypted-media"
               tabIndex={-1}
