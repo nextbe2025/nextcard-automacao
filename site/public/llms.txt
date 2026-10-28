@@ -1,0 +1,115 @@
+# NEXTCARD Automação Comercial
+
+> A NEXTCARD é uma empresa brasileira de automação comercial, fundada em 2018 em Pinhais (PR), região metropolitana de Curitiba. Desenvolve e entrega equipamentos e software para operações de consumo: totens de autoatendimento e autopagamento, catracas expedidoras e receptoras de comandas e comandas eletrônicas. Atende food service (restaurantes, bares, padarias, lanchonetes e similares) e lojas de conveniência/postos de combustível, em todas as regiões do Brasil.
+
+Informações importantes para interpretar este site:
+
+- Nome da marca: sempre escrito "NEXTCARD", em maiúsculas.
+- Segmentos atendidos: somente food service e lojas de conveniência/postos de combustível. A NEXTCARD não atende saúde, shopping ou estacionamentos.
+- Área de atuação: somente o Brasil, em todas as regiões. A NEXTCARD não atua em outros países.
+- Modelo comercial: venda direta dos equipamentos. A NEXTCARD não trabalha com locação.
+- Diferencial: projeto completo e personalizado, do diagnóstico à instalação, com totens, catracas e comandas integrados entre si e ao PDV do cliente (sem operação paralela). Integra com o sistema de gestão NEXTBE e com PDVs, sistemas de gestão e meios de pagamento já usados pelo cliente.
+- Números: mais de 8 anos de mercado, mais de 5 mil clientes, mais de 7 mil PDVs ativos e mais de 5 milhões de comandas produzidas.
+
+## Páginas principais
+
+- [Início](https://nextcard.com.br/): visão geral das três linhas de produto, o ecossistema integrado (entrada, consumo, pagamento e saída), setores atendidos, processo de trabalho, benefícios, avaliações de clientes e perguntas frequentes.
+- [Totens de autoatendimento e autopagamento](https://nextcard.com.br/totem-autoatendimento): benefícios, modelos, especificações técnicas e FAQ dos totens.
+- [Catraca expedidora e receptora de comandas](https://nextcard.com.br/catracas): como funciona o controle de entrada e saída, modelos expedidores e receptores, dimensões e FAQ.
+- [Comandas eletrônicas](https://nextcard.com.br/comandas-eletronicas): benefícios, tamanhos de comanda, cartão comanda, tecnologias de leitura e FAQ.
+- [Projetos e cases](https://nextcard.com.br/projetos): cases de clientes reais em restaurantes, padarias, salões de refeição e lojas de conveniência.
+- [Quem somos](https://nextcard.com.br/quem-somos): história, causa, missão, visão e valores da empresa.
+- [Programa de parceiros](https://nextcard.com.br/parceiros-revenda): modalidades de indicação (com comissionamento) e revenda das soluções NEXTCARD.
+- [Contato](https://nextcard.com.br/contato): telefone, WhatsApp, e-mail, horário de atendimento e formulário.
+- [Blog](https://nextcard.com.br/blog): artigos sobre autoatendimento, comandas eletrônicas, controle de acesso e gestão de restaurantes.
+
+## Soluções
+
+### Totens de autoatendimento e autopagamento
+
+O cliente faz o pedido e/ou paga direto no totem (Pix, cartão de débito ou crédito), sem depender de um operador de caixa. Benefícios: mais vendas e ticket médio maior, filas menores, menor custo operacional, integração com o PDV e personalização com a identidade visual do estabelecimento. O totem precisa de conexão com a internet para processar pagamentos e sincronizar com o PDV.
+
+Modelos:
+- Totem NX 24 - V: autoatendimento, tela de 24", com pedestal.
+- Totem NX 18,5 - H: autopagamento, tela de 18,5". O cliente confere o consumo da comanda e paga sozinho.
+- Totem NX Bancada: autoatendimento compacto, tela de 24", para balcões e bancadas.
+- Totem NX 32: autoatendimento, tela de 32", com pedestal.
+
+Especificações da linha: monitor touch screen LED Full HD (1920 × 1080) de 18,5", 24" ou 32"; processador Intel Core i3, i5 ou i7 de 11ª geração; SSD de 120 a 240 GB; 4 GB de memória DDR4, com expansão até 32 GB; Windows ou Android; estrutura em aço carbono SAE 1040.
+
+### Catracas expedidora e receptora de comandas
+
+- Catraca expedidora (entrada): libera a passagem e entrega a comanda ao cliente, iniciando o registro do consumo.
+- Catraca receptora (saída): recebe a comanda e só libera a passagem depois de confirmado o pagamento, o que reduz a evasão de receita.
+
+As catracas também podem funcionar como controle de acesso isolado, sem comandas. São usadas em restaurantes, casas noturnas, postos de combustível e lojas de conveniência.
+
+Modelos expedidores: Tecnibra C120 (comandas de 9 × 7 cm), Tecnibra C180 com Economy (dispensadora separada, comandas de 15 × 10, 14 × 8 e 9 × 7 cm) e Expedidora Fit Topdata (cartões de 54 × 86 mm).
+Modelos receptores: Tecnibra R120 (comandas de 9 × 7 cm), Tecnibra C180 com Economy (comandas de 9 × 7 cm) e Catraca Fit Urna Topdata (cartões de 54 × 86 mm).
+
+### Comandas eletrônicas
+
+A comanda registra o consumo do cliente durante toda a jornada, e o fechamento é feito automaticamente no PDV, sem anotação em papel nem cálculo na calculadora. Se o cliente perder a comanda, o consumo pode ser localizado pelo sistema. Funciona em operações fixas e em eventos. As comandas são personalizadas com a identidade visual do cliente e têm garantia de 5 anos contra quebra da base de ABS.
+
+Modelos:
+- Comanda eletrônica 9 × 7 cm (compacta): bares, cafeterias, hamburguerias e pizzarias.
+- Comanda eletrônica 14 × 8 cm (intermediária): padarias e restaurantes.
+- Comanda eletrônica 15 × 10 cm (grande): açaiterias, lojas de conveniência e temakerias.
+- Cartão comanda 54 × 86 mm: PVC laminado, produzido com o mesmo processo de um cartão de crédito.
+
+Tecnologias de leitura: código de barras, QR Code, chip de proximidade (RFID ou Mifare) e chip antifurto.
+
+### Ecossistema integrado
+
+As soluções foram feitas para funcionar juntas, num fluxo completo:
+1. Entrada: a catraca expedidora libera o acesso e entrega a comanda.
+2. Consumo: o cliente circula livremente e cada consumo é registrado na comanda eletrônica.
+3. Pagamento: no totem, o cliente confere o consumo e paga no seu ritmo.
+4. Saída: a catraca receptora confirma o pagamento e libera a saída.
+
+O fluxo se adapta a cada operação; nem todo cliente precisa das quatro etapas.
+
+## Como a NEXTCARD trabalha
+
+1. Avalia a operação: fluxo de clientes, pontos de fila e fechamento de caixa.
+2. Indica os equipamentos certos: totens, catracas e/ou comandas.
+3. Integra ao PDV, ao sistema de gestão e aos meios de pagamento do cliente.
+4. Acompanha o planejamento e a instalação, com suporte especializado.
+
+O prazo de instalação depende do número de unidades e da integração necessária, e é definido na fase de diagnóstico.
+
+## Setores atendidos
+
+Açaiteria, bar ou pub, bistrô, cafeteria, churrascaria, delivery, doceria, food truck, hamburgueria, lanchonete, marmitaria, padaria, pastelaria, pizzaria, restaurante, rede ou franquia de alimentação, salgaderia, sorveteria, posto de combustível e loja de conveniência.
+
+## Cases de clientes
+
+- Park do Churrasco (Curitiba, PR): restaurante com o ecossistema completo, da entrada ao autopagamento.
+- CABE PMDF (Distrito Federal): salão de refeições com controle de acesso e gestão de consumo.
+- Posto Tulio (São José dos Pinhais, PR): loja de conveniência com controle de acesso e gestão de consumo em 7 unidades, incluindo o Clube do Caminhoneiro.
+- Outros clientes: Hot Dog Expresso (PR, totens), O Prensadão (PR, totens), Panificadora Divipan (DF, comandas eletrônicas) e Posto Apolo Araquari (RS, catraca expedidora).
+
+## Programa de parceiros
+
+Duas modalidades, com atuação em todo o Brasil:
+- Indicação: o parceiro indica clientes e recebe comissionamento sobre as vendas geradas.
+- Revenda: o parceiro compra direto da fábrica e revende com margens competitivas.
+
+Perfil buscado: empresas de software de PDV para food service, revendas de automação comercial e de controle de acesso, empresas de tecnologia e de implantação de restaurantes, franqueadoras, consultorias e representantes comerciais de food service.
+
+## Contato
+
+- Telefone: (41) 3732-0275
+- WhatsApp: (41) 99550-7759 (https://wa.me/5541995507759)
+- E-mail: comercial@nextcard.com.br
+- Horário: segunda a quinta, das 8h às 18h; sexta-feira, das 8h às 17h
+- Sede: Pinhais, PR, Brasil
+- Instagram: https://www.instagram.com/nextcardautomacao/
+- LinkedIn: https://www.linkedin.com/company/nextcardautomacao/
+- Facebook: https://www.facebook.com/nextcardautomacao
+- YouTube: https://www.youtube.com/channel/UCDiEj2EG-KmWUJD8qxzWmFw
+
+## Opcional
+
+- [Política de privacidade](https://nextcard.com.br/politica-de-privacidade)
+- [Termos de uso](https://nextcard.com.br/termos-de-uso)
